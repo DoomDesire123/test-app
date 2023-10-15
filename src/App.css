@@ -1,38 +1,122 @@
-.App {
-  text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+.navbar a{
   color: white;
 }
-
-.App-link {
-  color: #61dafb;
+.navbar a:hover{
+  color: white;
+  text-decoration: underline;
+}
+.navbar-nav > .active > a { 
+  color: white !important;
+  background-color: blue !important; 
+}
+.logoimg{
+  width: 2rem;
+  height: 2rem;
+  padding: 0;
+}
+.navicon{
+  width: 2rem !important;
+  height: 2rem !important;
+}
+.heroimg{
+  width: 100%;
+  height: 40rem;
+}
+.herobtn{
+  color: black;
+  opacity: 0.9;  
+}
+.carousel-indicators button{
+  width: 0.5rem !important;
+  height: 0.5rem !important;
+  background-color: black !important;
+  border-radius: 100%;
+}
+.herosidebtn{
+  align-items: center;
+  width: 4rem !important;
+  height: 10rem;
+  margin-left: 5rem;
+  margin-right: 5rem;
+  margin-top: 15rem;
+  margin-bottom: 15rem;
+}
+.bestdeals{
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+}
+.bestdeals img{
+  width: 12rem;
+  height: 12rem;
+  border-radius: 1rem;
+}
+.bestheader{
+  padding-bottom: 3rem;
+  text-align: center;
+}
+.bestdeals p{
+  text-align: center;
+  margin: 0;
+}
+.bestbtn{
+  margin-top: 3rem;
+  margin-bottom: 3rem;
+  width: 15rem;
+}
+.card-text{
+  text-align: left !important;
+}
+.membership{
+  color: white;
+  height: 20rem;
+  padding-left: 0.2rem !important;
+  padding-right: 0.2rem !important;
+}
+.membershipbtn{
+  width: 10rem;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+.devicegrid{
+  border-radius: 1rem;
+  color: white;
+  height: 20rem;
+  padding-left: 0.2rem !important;
+  padding-right: 0.2rem !important;
+}
+.podsgrid{
+  color: white;
+  height: 10rem;
+  padding-left: 0.2rem !important;
+  padding-right: 0rem !important;
+  padding-bottom: 0.1rem !important;
+  border-radius: 10rem !important;
+}
+.podsgrid img{
+  border-top-right-radius: 0rem;
+  border-bottom-right-radius: 0rem;
+  border-top-left-radius: 0.5rem;
+  border-bottom-left-radius: 0.5rem;
+}
+.podsgrid .card{
+  border-top-right-radius: 0rem;
+  border-bottom-right-radius: 0rem;
+  border-top-left-radius: 0.5rem;
+  border-bottom-left-radius: 0.5rem;
+}
+.podsgridbtn{
+  align-items: center !important;
+  margin-bottom: 0.1rem;
+  padding: 0 !important;
+  border-top-right-radius: 0.5rem;
+  border-bottom-right-radius: 0.5rem;
+}
+.podsgridbtn a{
+    padding-top: 100% !important;
+}
+.contactcontainer{
+  float: left;
+  padding-left: 0.2rem;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
+
